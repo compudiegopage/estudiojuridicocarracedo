@@ -1,0 +1,82 @@
+nav {
+	display: flex;
+    position: sticky;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #333;
+	color: #000;
+	height: 10em;
+	padding: 0 20px;
+}
+
+nav.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ae9577;
+	color: #000;
+	height: 80px;
+	padding: 0 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	z-index: 999;
+	
+}
+.logo:hover{
+	background-color: #fff;
+}
+
+.logo{
+	align-items: left;
+}
+.menu{
+	color: #000;
+}
+.textos{
+	position:relative;
+    margin-top: 1em;
+	margin-left: 3em;
+    font-size: 50px;
+	padding-right: 2em;
+	text-align: justify;
+}
+#title{
+    position:relative;
+    margin-top: 1em;
+	margin-left: 3em;
+    font-size: 50px;
+	align-items: center;
+  }
+  .btn-wsp{
+    position:fixed;
+    width:65px;
+    height:65px;
+    line-height: 63px;
+    bottom:25px;
+    right:40px;
+}
+@media only screen and (max-width: 500px) {
+
+
+nav.sticky {
+	position: relative;
+	height:auto;
+	padding: 10px 20px;
+
+}
+    .mini{
+		display: none;
+		position: absolute;			
+	}
+	.carouselMini{
+		display: none;
+	}
+
+
+}
+@media only screen and (min-width: 500px) {
+	.carouselGrande{
+		display: none;
+	}
+}
+
