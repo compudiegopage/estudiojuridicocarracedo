@@ -32,32 +32,19 @@ nav.sticky {
 .menu{
 	color: #000;
 }
-.textos{
-	position:relative;
-    margin-top: 1em;
-	margin-left: 3em;
-    font-size: 50px;
-	padding-right: 2em;
-	text-align: justify;
-}
-#title{
-    position:relative;
-    margin-top: 1em;
-	margin-left: 3em;
-    font-size: 50px;
-	align-items: center;
-  }
-  .btn-wsp{
-    position:fixed;
-    width:65px;
-    height:65px;
-    line-height: 63px;
-    bottom:25px;
-    right:40px;
-}
-@media only screen and (max-width: 500px) {
 
 
+
+
+@media only screen and (max-width: 700px) {
+
+	#title{
+		position:relative;
+		margin-top: 1em;
+		margin-left: 1em;
+		font-size: 2em;
+		text-align: justify;
+	  }
 nav.sticky {
 	position: relative;
 	height:auto;
@@ -71,6 +58,27 @@ nav.sticky {
 	.carouselMini{
 		display: none;
 	}
+	.textos{
+		display:none;
+	}
+	.textoChico{
+		display: flex;
+		position:relative;
+		padding-left: 5%;
+		padding-top: 5%;
+		padding-right: 5%;
+		font-size: 130px;
+		text-align: justify;
+	}
+	.btn-wsp{
+		position:fixed;
+		width:65px;
+		height:65px;
+		bottom:25px;
+		left: 1em;
+		z-index:100;
+
+		}
 
 
 }
@@ -82,9 +90,35 @@ nav.sticky {
 	text-align: center;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
+	#title{
+		position:relative;
+		margin-top: 1em;
+		margin-left: 3em;
+		font-size: 50px;
+		align-items: center;
+	  }
 	.carouselGrande{
 		display: none;
 	}
+	.textos{
+		position:relative;
+		margin-top: 1em;
+		margin-left: 3em;
+		font-size: 50px;
+		padding-right: 2em;
+		text-align: justify;
+	}
+	.textoChico{
+		display:none;
+	}
+	.btn-wsp{
+		position:fixed;
+		display: block;
+		width:65px;
+		height:65px;
+		bottom:25px;
+		left: 1em;
+		}
 }
 
