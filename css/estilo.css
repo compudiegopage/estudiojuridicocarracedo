@@ -1,3 +1,4 @@
+
 nav {
 	display: flex;
     position: sticky;
@@ -111,6 +112,7 @@ nav.sticky {
 	}
 	.textoChico{
 		display:none;
+
 	}
 	.btn-wsp{
 		position:flex;
