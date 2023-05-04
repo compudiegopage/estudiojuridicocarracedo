@@ -129,7 +129,8 @@ nav.sticky {
 		height:65px;
 		bottom:25px;
 		left: 1em;
-		
+		z-index:100;
+		margin-bottom: 30px;
 		}
 }
 
