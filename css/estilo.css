@@ -44,7 +44,8 @@ nav.sticky {
 		margin-top: 1em;
 		margin-left: 1em;
 		font-size: 2em;
-		text-align: justify;
+		text-align: center;
+
 	  }
 nav.sticky {
 	position: relative;
